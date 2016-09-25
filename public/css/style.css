@@ -1,0 +1,57 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: table;
+    font-weight: 100;
+    font-family: 'Lato';
+}
+
+.container {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.content {
+    text-align: center;
+    display: inline-block;
+}
+
+.title {
+    font-size: 50px;
+}
+
+input {
+    border: 1px solid #bbb;
+    margin-top: 40px;
+    border-radius: 4px;
+    font-size: 20px;
+    padding: 5px 10px;
+    width: 400px;
+    font-weight: bold;
+    font-family: 'Lato';
+}
+
+button {
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Lato';
+}
+
+.errors {
+    background-color: #ff6666;
+    border-radius: 4px;
+    font-weight: bold;
+    padding: 20px 40px;
+}
